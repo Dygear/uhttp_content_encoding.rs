@@ -1,0 +1,9 @@
+[package]
+name = "uhttp_content_encoding"
+version = "0.5.0"
+authors = ["Mick Koch <mick@kochm.co>"]
+description = "Iterator/slice-based parser for HTTP content-encoding header"
+license = "MIT"
+documentation = "https://docs.rs/uhttp_content_encoding"
+repository = "https://github.com/kchmck/uhttp_content_encoding.rs"
+keywords = ["http", "header", "content-encoding", "content", "encoding"]
