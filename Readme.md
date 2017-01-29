@@ -1,4 +1,4 @@
-# uhttp\_content\_encoding -- Parser for HTTP content-encoding header
+# uhttp\_content\_encoding -- Parser for HTTP Content-Encoding header
 
 [Documentation](https://docs.rs/uhttp_content_encoding)
 
@@ -28,7 +28,7 @@ adding it as a dependency in `Cargo.toml`:
 
 ```toml
 [dependencies]
-uhttp_content_encoding = "0.5.0"
+uhttp_content_encoding = "0.5.1"
 ```
 and importing it in the crate root:
 

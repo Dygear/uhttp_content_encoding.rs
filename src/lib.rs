@@ -56,7 +56,7 @@ impl<'a> ContentEncoding<'a> {
 }
 
 /// Standard content encoding scheme, as defined by
-/// [IANA](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding)
+/// [IANA](http://www.iana.org/assignments/http-parameters/http-parameters.xhtml#content-coding).
 #[derive(Copy, Clone, Eq, PartialEq, Debug, Hash)]
 pub enum StdContentEncoding {
     /// Brottli compressed data format.
