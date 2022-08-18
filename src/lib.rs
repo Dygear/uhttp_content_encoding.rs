@@ -17,10 +17,6 @@
 //! assert_eq!(encs.next(), None);
 //! ```
 
-#![feature(conservative_impl_trait)]
-
-use std::ascii::AsciiExt;
-
 /// Create an iterator over content encoding layers from the given string in [the
 /// form](https://tools.ietf.org/html/rfc7231#section-3.1.2.2) used by the
 /// `Content-Encoding` header field.
